@@ -122,4 +122,27 @@ footer
 
 
 }
+/************PAGE 1*************/
+.table
+{
+    background-color: brown;
+}
 
+
+
+td, th
+{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+
+table
+{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: large;
+    margin:auto;   /**centrage**/
+    width: 500px;
+    height: 600px;
+}

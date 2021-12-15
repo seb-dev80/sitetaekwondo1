@@ -1,6 +1,6 @@
 *
 {
-    margin: 0em;
+    margin: 2px;
     padding: 0em;
 }
 body
@@ -36,12 +36,20 @@ header
     
 }
 
- h1
+ h1 
 {
     font-size: xx-large;
     font-style: italic;
 
 }
+
+
+h2
+{
+    font-size: large;
+    text-align: center;
+}
+
 /*******menu navigation********/
 
 nav ul
@@ -123,10 +131,9 @@ footer
 
 }
 /************PAGE 1*************/
-.table
-{
-    background-color: brown;
-}
+
+/*****TABLEAU******/
+
 
 
 
@@ -143,6 +150,23 @@ table
     text-align: center;
     font-size: large;
     margin:auto;   /**centrage**/
-    width: 500px;
-    height: 600px;
+    width: 300px;
+    height: 200px;
+}
+section
+{
+    margin-top: 6em;
+}
+
+/*******FORMULAIRE*****/
+
+textarea
+{
+    resize: none;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
 }

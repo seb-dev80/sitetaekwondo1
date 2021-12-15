@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <title>l'histoire du taekwondo</title>
 </head>
+
+<header>
+    <h1>tableau et formulaire</h1>
+</header>
+
 <body>
-    <div class="table">
+
+<section>
+    <div class="container">
+     <div class="table">
         <table>
             <caption>programme de musculation</caption>
             <tr>
@@ -21,6 +29,7 @@
                 <td colspan="2">jour 2</td>
                 
             </tr>
+
             <tr>
                 <td>pecs</td>
                 <td>dos</td>
@@ -28,5 +37,39 @@
             </tr>
         </table>
     </div>
+
+    
+    <div class="formulaire">
+        <p>formulaire d'adhésion</p>
+        <form method="post" action="formulaire.php">
+            <p>veuillez remplir le formulaire ci-dessous</p>
+              <p>
+                  <label for="pseudo">Votre pseudo</label> : 
+                  <input type="text" name="pseudo" id="pseudo" placeholder="Ex : ZOZOR" size="20" maxlength="10">
+                  
+                  <br />
+
+                  <label for="pass">Votre mot de passe</label> :
+                  <input type="password" name="pass" id="pass" placeholder="mot de passe" size="20">
+
+                  <br />
+
+                  <label for="projet">décrivez votre projet</label><br />
+                  <textarea name="projet" id="projet" rows="10" cols="20"></textarea>
+
+                  <br />
+
+                  <label for="date">votre date de naissance</label> :
+                  <input type="date" name="date" id="date">
+
+                  <br />
+
+                  <input type="submit">
+              </p>  
+
+        </form>
+    </div>
+    </div>
+</section>   
 </body>
 </html>
